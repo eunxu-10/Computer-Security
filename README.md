@@ -29,7 +29,7 @@ HYU ITE4007
   > - **모델링 요약:** KNN classifier를 사용해서 test 문서에 대해 가장 가까운 traning data K개를 뽑고 그 data의 label에 따라서 test 문서의 label을 지정해줄 것이다. 문서의 가까운 정도를 알아내기 위해 tf-idf를 사용할 것이고 이를 위해서 Sklearn의 TfidfVectorizer모듈을 사용한다. KNN classification을 위해서 sklearn의 KNeighborsClassifier 모듈을 사용한다. 
   
   ### 순서도 
-  ![malware_classification_순서도](https://user-images.githubusercontent.com/69952073/104265232-781c8d80-54d0-11eb-917a-054a2c33bb31.png)
+  > ![malware_classification_순서도](https://user-images.githubusercontent.com/69952073/104265232-781c8d80-54d0-11eb-917a-054a2c33bb31.png)
    ### 환경
    > - 프로그래밍 언어 : python 3.5
    > - OS : windows 10
